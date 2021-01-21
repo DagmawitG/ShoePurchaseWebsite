@@ -1,0 +1,31 @@
+#bgfooter{
+    background-color: rgb(84, 84, 136);
+    color: white;
+   
+}
+#flex-container{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: left;
+}
+#space{
+    margin-top: 50px;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:60%;
+    width:100%;
+    position:absolute;
+    }
+
+#imgSize{
+    width:40%;
+    height:40%;
+}
